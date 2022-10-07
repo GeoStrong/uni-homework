@@ -1,0 +1,54 @@
+body {
+  font-family: verdana, helvetica, arial, sans-serif;
+  font-size: 80%;
+  margin: 0;
+  padding: 0;
+  background-color: hsl(0, 0%, 100%);
+  background-image: url(../images/png1.png);
+  background-position: center;
+  background-size: cover;
+}
+p,
+h2,
+h3 {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 10;
+  color: hsl(0, 0%, 0%);
+}
+#navigation {
+  border-bottom: 1px dotted hsl(341, 100%, 14%);
+  margin: 3;
+  width: 100%;
+  background-color: hsl(0, 0%, 87%);
+}
+p {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: hsl(0, 0%, 0%);
+}
+h2 {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 160%;
+
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 110%;
+  background: linear-gradient(
+    0.25turn,
+    hsl(198, 45%, 45%),
+    hsl(94, 62%, 93%),
+    hsl(31, 91%, 60%)
+  );
+}
+
+a {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  color: hsl(197, 79%, 38%);
+  font-size: 18px;
+  box-shadow: 12px 12px 2px 1px hsla(240, 100%, 50%, 0.2);
+}
+a:hover {
+  text-decoration: underline;
+}

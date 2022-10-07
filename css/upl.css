@@ -1,0 +1,9 @@
+body {
+  position: absolute;
+  max-width: 600px;
+  padding: 30px;
+  margin-left: 40%;
+  margin-top: 10%;
+  background-image: url(../images/jpg12.jpg);
+  background-position: center;
+}
